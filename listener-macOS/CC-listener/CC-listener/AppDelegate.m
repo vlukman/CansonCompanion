@@ -7,16 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "CCSocketManager.h"
 
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+@property (nonatomic) CCSocketManager *socketManager;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    NSURL *url = [NSURL URLWithString:@"http://localhost:3000"];
+    self.socketManager = [[CCSocketManager alloc] initWithURL:url];
+    [self.socketManager connect];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

@@ -12,6 +12,8 @@
 		A23238A41DB9C6A5001F4FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23238A31DB9C6A5001F4FD9 /* Assets.xcassets */; };
 		A23238A71DB9C6A5001F4FD9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23238A51DB9C6A5001F4FD9 /* MainMenu.xib */; };
 		A23238B21DB9C6A5001F4FD9 /* CC_ListenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23238B11DB9C6A5001F4FD9 /* CC_ListenerTests.m */; };
+		A23238BE1DB9C834001F4FD9 /* CCSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A23238BD1DB9C834001F4FD9 /* CCSocketManager.m */; };
+		A3A6C98DED759E2C17518E93 /* libPods-CC-Listener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D9F7CA656BB73003F2CE42 /* libPods-CC-Listener.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C35FDA51D9F200B82452EB5 /* Pods-CC-Listener.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CC-Listener.release.xcconfig"; path = "Pods/Target Support Files/Pods-CC-Listener/Pods-CC-Listener.release.xcconfig"; sourceTree = "<group>"; };
+		451F309628EFE091602E8C7B /* Pods-CC-Listener.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CC-Listener.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CC-Listener/Pods-CC-Listener.debug.xcconfig"; sourceTree = "<group>"; };
+		96D9F7CA656BB73003F2CE42 /* libPods-CC-Listener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CC-Listener.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A232389A1DB9C6A5001F4FD9 /* CC-Listener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CC-Listener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A232389D1DB9C6A5001F4FD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A232389E1DB9C6A5001F4FD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +40,8 @@
 		A23238AD1DB9C6A5001F4FD9 /* CC-ListenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CC-ListenerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23238B11DB9C6A5001F4FD9 /* CC_ListenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CC_ListenerTests.m; sourceTree = "<group>"; };
 		A23238B31DB9C6A5001F4FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23238BC1DB9C834001F4FD9 /* CCSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocketManager.h; sourceTree = "<group>"; };
+		A23238BD1DB9C834001F4FD9 /* CCSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSocketManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A6C98DED759E2C17518E93 /* libPods-CC-Listener.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,12 +63,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84141032E38EA5CE1DB5B3BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96D9F7CA656BB73003F2CE42 /* libPods-CC-Listener.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A23238911DB9C6A5001F4FD9 = {
 			isa = PBXGroup;
 			children = (
 				A232389C1DB9C6A5001F4FD9 /* CC-Listener */,
 				A23238B01DB9C6A5001F4FD9 /* CC-ListenerTests */,
 				A232389B1DB9C6A5001F4FD9 /* Products */,
+				EE77FCC8E774D1DE62B85092 /* Pods */,
+				84141032E38EA5CE1DB5B3BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +100,8 @@
 				A23238A51DB9C6A5001F4FD9 /* MainMenu.xib */,
 				A23238A81DB9C6A5001F4FD9 /* Info.plist */,
 				A23238A01DB9C6A5001F4FD9 /* Supporting Files */,
+				A23238BC1DB9C834001F4FD9 /* CCSocketManager.h */,
+				A23238BD1DB9C834001F4FD9 /* CCSocketManager.m */,
 			);
 			path = "CC-Listener";
 			sourceTree = "<group>";
@@ -103,6 +123,15 @@
 			path = "CC-ListenerTests";
 			sourceTree = "<group>";
 		};
+		EE77FCC8E774D1DE62B85092 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				451F309628EFE091602E8C7B /* Pods-CC-Listener.debug.xcconfig */,
+				1C35FDA51D9F200B82452EB5 /* Pods-CC-Listener.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A23238B61DB9C6A5001F4FD9 /* Build configuration list for PBXNativeTarget "CC-Listener" */;
 			buildPhases = (
+				3E38E9CB037A8B2DEEEB059A /* [CP] Check Pods Manifest.lock */,
 				A23238961DB9C6A5001F4FD9 /* Sources */,
 				A23238971DB9C6A5001F4FD9 /* Frameworks */,
 				A23238981DB9C6A5001F4FD9 /* Resources */,
+				0014C445E204E2B9C23FCBE4 /* [CP] Embed Pods Frameworks */,
+				AF68EF35AD19A4CA8945C28E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,12 +230,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0014C445E204E2B9C23FCBE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CC-Listener/Pods-CC-Listener-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E38E9CB037A8B2DEEEB059A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF68EF35AD19A4CA8945C28E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CC-Listener/Pods-CC-Listener-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A23238961DB9C6A5001F4FD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A23238A21DB9C6A5001F4FD9 /* main.m in Sources */,
+				A23238BE1DB9C834001F4FD9 /* CCSocketManager.m in Sources */,
 				A232389F1DB9C6A5001F4FD9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,9 +400,9 @@
 		};
 		A23238B71DB9C6A5001F4FD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451F309628EFE091602E8C7B /* Pods-CC-Listener.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "CC-Listener/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -332,9 +413,9 @@
 		};
 		A23238B81DB9C6A5001F4FD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C35FDA51D9F200B82452EB5 /* Pods-CC-Listener.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "CC-Listener/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -388,6 +469,7 @@
 				A23238B81DB9C6A5001F4FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A23238B91DB9C6A5001F4FD9 /* Build configuration list for PBXNativeTarget "CC-ListenerTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +478,7 @@
 				A23238BB1DB9C6A5001F4FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
