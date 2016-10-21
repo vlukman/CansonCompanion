@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "CCSocketManager.h"
 
-@interface ViewController ()
-
+@interface ViewController () <CCSocketManagerDelegate>
+@property (nonatomic) CCSocketManager *socketManager;
 @end
 
 @implementation ViewController
@@ -19,9 +20,28 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    NSURL *url = [NSURL URLWithString:@"http://localhost:3000"];
+    self.socketManager = [[CCSocketManager alloc] initWithURL:url andDelegate:self];
+    [self.socketManager connect];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    [self.socketManager disconnect];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)didSelectKnock:(id)sender {
+    [self.socketManager sendKnock];
+}
+
+#pragma mark - CCSocketManagerDelegate
+
 
 @end

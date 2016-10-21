@@ -15,13 +15,24 @@ typedef enum {
     CCSocketStatusDisconnected,
 } CCSocketStatus;
 
+@protocol CCSocketManagerDelegate <NSObject>
+@optional
+- (void)didReceiveKnock;
+- (void)didConnect;
+- (void)didDisconnect:(NSError *)error;
+@end
+
 @interface CCSocketManager : NSObject <SRWebSocketDelegate>
 
 @property (nonatomic, readonly) NSURL* url;
 @property (nonatomic, readonly) CCSocketStatus socketStatus;
+@property (nonatomic, weak, readonly) id <CCSocketManagerDelegate> delegate;
 
-- (instancetype)initWithURL:(NSURL *)url;
+- (instancetype)initWithURL:(NSURL *)url andDelegate:(id <CCSocketManagerDelegate>)delegate;
 - (void)connect;
 - (void)disconnect;
+
+- (void)sendKnock;
+- (void)sendMessage:(NSString *)message;
 
 @end

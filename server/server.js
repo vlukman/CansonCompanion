@@ -1,11 +1,24 @@
 var WebSocketServer = require('ws').Server
   , wss = new WebSocketServer({ port: 3000 });
 
-wss.on('connection', function connection(ws) {
-  console.log("connected " + ws.id);
-  ws.on('message', function incoming(message) {
-    console.log('received: %s', message);
+var listenerSocket = null;
+
+wss.on('connection', function connection(socket) {
+  console.log("connected " + socket);
+  socket.on('message', function incoming(message) {
+    if (message === 'knock') {
+      if (listenerSocket != null) {
+        listenerSocket.send("knock");
+      }
+    }
+    else if (message === 'listener') {
+      listenerSocket = socket;
+      console.log("I am a listener app " + listenerSocket);
+    }
+    else {
+      console.log('received: %s', message);
+    }
   });
 
-  // ws.send('something');
+  // socket.send('something');
 });

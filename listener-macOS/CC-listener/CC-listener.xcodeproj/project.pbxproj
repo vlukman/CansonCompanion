@@ -13,6 +13,7 @@
 		A23238A71DB9C6A5001F4FD9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23238A51DB9C6A5001F4FD9 /* MainMenu.xib */; };
 		A23238B21DB9C6A5001F4FD9 /* CC_ListenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23238B11DB9C6A5001F4FD9 /* CC_ListenerTests.m */; };
 		A23238C21DB9D31C001F4FD9 /* CCSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A23238C11DB9D31C001F4FD9 /* CCSocketManager.m */; };
+		A23238C91DB9D9BD001F4FD9 /* three_knocks_on_wood_door.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A23238C81DB9D9BD001F4FD9 /* three_knocks_on_wood_door.mp3 */; };
 		A3A6C98DED759E2C17518E93 /* libPods-CC-Listener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D9F7CA656BB73003F2CE42 /* libPods-CC-Listener.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		A23238B31DB9C6A5001F4FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A23238C01DB9D31C001F4FD9 /* CCSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocketManager.h; sourceTree = "<group>"; };
 		A23238C11DB9D31C001F4FD9 /* CCSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSocketManager.m; sourceTree = "<group>"; };
+		A23238C81DB9D9BD001F4FD9 /* three_knocks_on_wood_door.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = three_knocks_on_wood_door.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				A232389B1DB9C6A5001F4FD9 /* Products */,
 				EE77FCC8E774D1DE62B85092 /* Pods */,
 				84141032E38EA5CE1DB5B3BD /* Frameworks */,
+				A23238C71DB9D9BD001F4FD9 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +133,15 @@
 			);
 			path = shared;
 			sourceTree = SOURCE_ROOT;
+		};
+		A23238C71DB9D9BD001F4FD9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A23238C81DB9D9BD001F4FD9 /* three_knocks_on_wood_door.mp3 */,
+			);
+			name = Resources;
+			path = "CC-Listener/Resources";
+			sourceTree = "<group>";
 		};
 		EE77FCC8E774D1DE62B85092 /* Pods */ = {
 			isa = PBXGroup;
@@ -224,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23238C91DB9D9BD001F4FD9 /* three_knocks_on_wood_door.mp3 in Resources */,
 				A23238A41DB9C6A5001F4FD9 /* Assets.xcassets in Resources */,
 				A23238A71DB9C6A5001F4FD9 /* MainMenu.xib in Resources */,
 			);
