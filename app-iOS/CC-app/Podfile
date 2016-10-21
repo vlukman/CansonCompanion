@@ -1,0 +1,3 @@
+target 'CC-app’ do
+  pod 'SocketRocket'
+end
