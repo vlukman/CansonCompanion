@@ -23,12 +23,27 @@
         _url = url;
         self.webSocket = [[SRWebSocket alloc] initWithURL:url];
         self.webSocket.delegate = self;
+        _socketStatus = CCSocketStatusDisconnected;
     }
     return self;
 }
 
 - (void)connect {
-    [self.webSocket open];
+    @synchronized(self) {
+        if (_socketStatus == CCSocketStatusDisconnected) {
+            _socketStatus = CCSocketStatusConnecting;
+            [self.webSocket open];
+        }
+    }
+}
+
+- (void)disconnect {
+    @synchronized(self) {
+        if (_socketStatus == CCSocketStatusConnected) {
+        _socketStatus = CCSocketStatusDisconnected;
+        [self.webSocket close];
+        }
+    }
 }
 
 - (void)webSocket:(SRWebSocket *)webSocket didReceiveMessage:(id)message {
@@ -36,10 +51,16 @@
 }
 
 - (void)webSocketDidOpen:(SRWebSocket *)webSocket {
+    @synchronized(self) {
+        _socketStatus = CCSocketStatusConnected;
+    }
     NSLog(@"Websocket Connected");
 }
 
 - (void)webSocket:(SRWebSocket *)webSocket didFailWithError:(NSError *)error {
+    @synchronized(self) {
+        _socketStatus = CCSocketStatusDisconnected;
+    }
     NSLog(@"Websocket Fail with error %@", error.description);
 }
 
@@ -48,6 +69,9 @@
            reason:(NSString *)reason
          wasClean:(BOOL)wasClean
 {
+    @synchronized(self) {
+        _socketStatus = CCSocketStatusDisconnected;
+    }
     NSLog(@"Websocket didClose code: %zd | reason %@ | wasClean %i", code, reason, wasClean);
 }
 

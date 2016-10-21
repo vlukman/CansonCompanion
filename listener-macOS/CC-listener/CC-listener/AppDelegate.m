@@ -26,6 +26,7 @@
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
+    [self.socketManager disconnect];
 }
 
 @end
