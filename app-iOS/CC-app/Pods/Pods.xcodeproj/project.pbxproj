@@ -7,82 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CCFD12629B1F6B9244E5BE8F9B27ACA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
-		4CFD55B65860360B31310163BEC6D4A2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898EE84856EB5E52F00A964689E9F67E /* CFNetwork.framework */; };
-		546726081D9EC10C4A6821CBA2FDAE32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
-		67FB1645291828C909586EEB461EED23 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC76A27B6AC5FF40DBB7B0E2B8BF8014 /* Security.framework */; };
-		71CDB0019FC39F9B06A74EBD3D571F93 /* Pods-CC-app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6342E8480D678989F6DB42503452C0 /* Pods-CC-app-dummy.m */; };
-		7590447FFF52B007B8E0574F8741A1B1 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095759AC714C71F66EB69CA0E335A64 /* SRWebSocket.m */; };
-		874A6F1F5AE35C54DADAE6A6DBC670C0 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF4E5EED2BE7953295FCE1F8F29887B /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE112C7C0724E0B90DB88DF63A040037 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AD439A80B2F1ABD299002CAA341262 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D125C1CFB4B7BD2D2703FBAB2EE862E4 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD643BBD53C0BC9592126E22C82B77A /* SocketRocket-dummy.m */; };
+		18A891CA97B8FFBB8691CA2D80C4E411 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F849266F0F37DFAE3515F2BDEFB32D1 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3159C276FACE8FF701496C0C5933583D /* Pods-CC-app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6342E8480D678989F6DB42503452C0 /* Pods-CC-app-dummy.m */; };
+		322AB3514C05FF80C84AC0F12B6ECA3C /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D8A2302E22F4F9CEF6ABF8B42CA3E /* SRWebSocket.m */; };
+		39FA2A9E2EAC01AB6844BF6EB743268C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
+		57510EB15593C8FC8EB23F4117E56652 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A937DBE849833A49D4E6C51878676C34 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5FA13A0CB0BB7D0CD91A0299F2025D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898EE84856EB5E52F00A964689E9F67E /* CFNetwork.framework */; };
+		8D5FF8F5B4934576C3275A366E496244 /* youtube-ios-player-helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A02A24741C42D351F9E58D3DEFBE2 /* youtube-ios-player-helper-dummy.m */; };
+		8F4A83B796ADF33A281E324E7C574779 /* YTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3751C99D6E5356663715A1E022337EDD /* YTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3B5D10500DB1571876CD57B83E6E30B /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B947D056D5A3D59A3D5525A1394EAE /* SocketRocket-dummy.m */; };
+		FAC5EDCF8DF228758880ED2693843C7D /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D346F2DE0529BDEC855079D0D98548 /* YTPlayerView.m */; };
+		FB58BAFD7FFB3478C25FF8648E6A2317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
+		FCC81FB8A84FC0D16D1D45D175F2EAAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
+		FEA678A631A29995B4CDE5DFB6E75F7B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC76A27B6AC5FF40DBB7B0E2B8BF8014 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A422BE102A6AB45493842C253C04E860 /* PBXContainerItemProxy */ = {
+		5F1928C60234A0A975C8D9DAB62848E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A3AB91F166596C4826BC93F34C06FFD8;
+			remoteGlobalIDString = 9A81810D26B2BEDCE3B357D367EF74A9;
 			remoteInfo = SocketRocket;
+		};
+		F8BC1C0D0F8CE9FC1B601458E0F44D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C13E481280C486483A7CEE85240A25;
+			remoteInfo = "youtube-ios-player-helper";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1095759AC714C71F66EB69CA0E335A64 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
-		1AD643BBD53C0BC9592126E22C82B77A /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		1F849266F0F37DFAE3515F2BDEFB32D1 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
 		256D9DF37AE2C189C05B3F0000D24A1F /* Pods-CC-app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CC-app-frameworks.sh"; sourceTree = "<group>"; };
+		26B947D056D5A3D59A3D5525A1394EAE /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
 		2DB11FD5C67738282DD881F21CE54B98 /* Pods-CC-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CC-app.debug.xcconfig"; sourceTree = "<group>"; };
-		5AF4E5EED2BE7953295FCE1F8F29887B /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
-		6681F1CD0F6C1890B081DC3645C735FD /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC53A33A7E12FC272759709931D6EA3 /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
+		313D6D8DF8DD4B60C69FE63821D7FE71 /* libPods-CC-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CC-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3751C99D6E5356663715A1E022337EDD /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
+		3D3D8A2302E22F4F9CEF6ABF8B42CA3E /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		475A02A24741C42D351F9E58D3DEFBE2 /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
+		5A07F00BC9C3F78B42E327EBBE4ECC5B /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		5F89E3464912B8C5A41D95301582433E /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		61D346F2DE0529BDEC855079D0D98548 /* YTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = Classes/YTPlayerView.m; sourceTree = "<group>"; };
+		6755C0C047FFEABAB79BBCC430233DFA /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69954056EE93D35F0D441F835C0229FA /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Assets.bundle; path = "youtube-ios-player-helper/Assets.bundle"; sourceTree = "<group>"; };
 		6C6342E8480D678989F6DB42503452C0 /* Pods-CC-app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CC-app-dummy.m"; sourceTree = "<group>"; };
-		81ED5606DF56484C11C9E852E586A23C /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
 		898EE84856EB5E52F00A964689E9F67E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		8DDFD40CC63B07D3798A081A2A4CB85E /* libPods-CC-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CC-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95DF2D5DC0DBC17E697C136544AB193F /* Pods-CC-app-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CC-app-resources.sh"; sourceTree = "<group>"; };
 		A3089EBB6F82F490524AB4D55117971A /* Pods-CC-app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CC-app-acknowledgements.plist"; sourceTree = "<group>"; };
+		A937DBE849833A49D4E6C51878676C34 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
 		AF4255812025055F5AB517FFF80480F7 /* Pods-CC-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CC-app.release.xcconfig"; sourceTree = "<group>"; };
 		B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BC76A27B6AC5FF40DBB7B0E2B8BF8014 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		CD7663D6D389F06D213F02B8BE041BCB /* Pods-CC-app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CC-app-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
-		E3AD439A80B2F1ABD299002CAA341262 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		D0EBC817D2780B565041E1D6A0001BE7 /* youtube-ios-player-helper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.xcconfig"; sourceTree = "<group>"; };
+		F1572250DE13285141EC63A18515CDFB /* libyoutube-ios-player-helper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libyoutube-ios-player-helper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		241D307C02233B0CBC039FB339DF5486 /* Frameworks */ = {
+		1390681C497EE1C51F1D40AF46C64CAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CCFD12629B1F6B9244E5BE8F9B27ACA /* Foundation.framework in Frameworks */,
+				6A5FA13A0CB0BB7D0CD91A0299F2025D /* CFNetwork.framework in Frameworks */,
+				39FA2A9E2EAC01AB6844BF6EB743268C /* Foundation.framework in Frameworks */,
+				FEA678A631A29995B4CDE5DFB6E75F7B /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED38D7ECCFDF1ED18E54C979EC596BFF /* Frameworks */ = {
+		281CD98690FCFC0B8075D898BCD156E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CFD55B65860360B31310163BEC6D4A2 /* CFNetwork.framework in Frameworks */,
-				546726081D9EC10C4A6821CBA2FDAE32 /* Foundation.framework in Frameworks */,
-				67FB1645291828C909586EEB461EED23 /* Security.framework in Frameworks */,
+				FCC81FB8A84FC0D16D1D45D175F2EAAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8887A737D5072077D3E0A4C069C4DA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB58BAFD7FFB3478C25FF8648E6A2317 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04310F8822AFFD42107F8DA169E0A47A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */,
-				1AD643BBD53C0BC9592126E22C82B77A /* SocketRocket-dummy.m */,
-				81ED5606DF56484C11C9E852E586A23C /* SocketRocket-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SocketRocket";
-			sourceTree = "<group>";
-		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,23 +131,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4FF663BB937700D1580BDAB7F3EF0D97 /* Pods */ = {
+		747BD9BBB008E0906803568CDE18DCAB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				702DD509C6164C2492FCB546BD72BB07 /* SocketRocket */,
+				AAFD41C7822F87FBA6579B2744E42E6F /* SocketRocket */,
+				79C0B381D8E1297A8C847F6D6B3C1A20 /* youtube-ios-player-helper */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		702DD509C6164C2492FCB546BD72BB07 /* SocketRocket */ = {
+		79C0B381D8E1297A8C847F6D6B3C1A20 /* youtube-ios-player-helper */ = {
 			isa = PBXGroup;
 			children = (
-				E3AD439A80B2F1ABD299002CAA341262 /* SocketRocket.h */,
-				5AF4E5EED2BE7953295FCE1F8F29887B /* SRWebSocket.h */,
-				1095759AC714C71F66EB69CA0E335A64 /* SRWebSocket.m */,
-				04310F8822AFFD42107F8DA169E0A47A /* Support Files */,
+				3751C99D6E5356663715A1E022337EDD /* YTPlayerView.h */,
+				61D346F2DE0529BDEC855079D0D98548 /* YTPlayerView.m */,
+				AF1439F1CA6EC4F08ED336E42198ACE7 /* Resources */,
+				8C7A355F19202B0FB613FA532FBCBB7F /* Support Files */,
 			);
-			path = SocketRocket;
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		7C1ED0AFADC92F1FAF49390158B7F439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				313D6D8DF8DD4B60C69FE63821D7FE71 /* libPods-CC-app.a */,
+				6755C0C047FFEABAB79BBCC430233DFA /* libSocketRocket.a */,
+				F1572250DE13285141EC63A18515CDFB /* libyoutube-ios-player-helper.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -140,19 +166,51 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				4FF663BB937700D1580BDAB7F3EF0D97 /* Pods */,
-				CACFB5AFD8C9B5D1A38C97523AC5C7D6 /* Products */,
+				747BD9BBB008E0906803568CDE18DCAB /* Pods */,
+				7C1ED0AFADC92F1FAF49390158B7F439 /* Products */,
 				DD2AC6059B9BEAD805182902EC522686 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CACFB5AFD8C9B5D1A38C97523AC5C7D6 /* Products */ = {
+		8C7A355F19202B0FB613FA532FBCBB7F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8DDFD40CC63B07D3798A081A2A4CB85E /* libPods-CC-app.a */,
-				6681F1CD0F6C1890B081DC3645C735FD /* libSocketRocket.a */,
+				D0EBC817D2780B565041E1D6A0001BE7 /* youtube-ios-player-helper.xcconfig */,
+				475A02A24741C42D351F9E58D3DEFBE2 /* youtube-ios-player-helper-dummy.m */,
+				2DC53A33A7E12FC272759709931D6EA3 /* youtube-ios-player-helper-prefix.pch */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		A190118D6461FDC0F1288BD739EDA2F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A07F00BC9C3F78B42E327EBBE4ECC5B /* SocketRocket.xcconfig */,
+				26B947D056D5A3D59A3D5525A1394EAE /* SocketRocket-dummy.m */,
+				5F89E3464912B8C5A41D95301582433E /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		AAFD41C7822F87FBA6579B2744E42E6F /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				1F849266F0F37DFAE3515F2BDEFB32D1 /* SocketRocket.h */,
+				A937DBE849833A49D4E6C51878676C34 /* SRWebSocket.h */,
+				3D3D8A2302E22F4F9CEF6ABF8B42CA3E /* SRWebSocket.m */,
+				A190118D6461FDC0F1288BD739EDA2F2 /* Support Files */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		AF1439F1CA6EC4F08ED336E42198ACE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69954056EE93D35F0D441F835C0229FA /* Assets.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		DD2AC6059B9BEAD805182902EC522686 /* Targets Support Files */ = {
@@ -166,42 +224,68 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		553274DDEC0CF445787D2398D20E1405 /* Headers */ = {
+		52FE72EE47A964D31B5E4226B38BD778 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE112C7C0724E0B90DB88DF63A040037 /* SocketRocket.h in Headers */,
-				874A6F1F5AE35C54DADAE6A6DBC670C0 /* SRWebSocket.h in Headers */,
+				18A891CA97B8FFBB8691CA2D80C4E411 /* SocketRocket.h in Headers */,
+				57510EB15593C8FC8EB23F4117E56652 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FB80A9E474C12C553B632CE0752450 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4A83B796ADF33A281E324E7C574779 /* YTPlayerView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3D3E784C647D7C0219451D10D20F21B8 /* Pods-CC-app */ = {
+		49C13E481280C486483A7CEE85240A25 /* youtube-ios-player-helper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9B56CB8158E6D865F7D0EBF32658F42 /* Build configuration list for PBXNativeTarget "Pods-CC-app" */;
+			buildConfigurationList = 4226BA231CBC9A851AE32528258948C8 /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */;
 			buildPhases = (
-				75DF821FC4FBCA9ED006281E47A6C878 /* Sources */,
-				241D307C02233B0CBC039FB339DF5486 /* Frameworks */,
+				3594E9C1E4AFF87957A6D57AC9470887 /* Sources */,
+				281CD98690FCFC0B8075D898BCD156E0 /* Frameworks */,
+				E3FB80A9E474C12C553B632CE0752450 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9D8D164EDEDC9FC5DCF67C40E7F909BF /* PBXTargetDependency */,
+			);
+			name = "youtube-ios-player-helper";
+			productName = "youtube-ios-player-helper";
+			productReference = F1572250DE13285141EC63A18515CDFB /* libyoutube-ios-player-helper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		61E8289C9A70CEAE4ED58593CFC2495D /* Pods-CC-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2547906E0A8266BD4F01C96A751C3F2A /* Build configuration list for PBXNativeTarget "Pods-CC-app" */;
+			buildPhases = (
+				D3906809622BF496FCCDE0EA5D20DDA8 /* Sources */,
+				8887A737D5072077D3E0A4C069C4DA34 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C1FC4A1FC7EB5D442CAB574B19D692 /* PBXTargetDependency */,
+				8BE6990FF53F39DE7BAB7ADC79FEA53C /* PBXTargetDependency */,
 			);
 			name = "Pods-CC-app";
 			productName = "Pods-CC-app";
-			productReference = 8DDFD40CC63B07D3798A081A2A4CB85E /* libPods-CC-app.a */;
+			productReference = 313D6D8DF8DD4B60C69FE63821D7FE71 /* libPods-CC-app.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A3AB91F166596C4826BC93F34C06FFD8 /* SocketRocket */ = {
+		9A81810D26B2BEDCE3B357D367EF74A9 /* SocketRocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F340F8500141AE361791F56E2E36C5E /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildConfigurationList = EC2AB3779193F4148F645F98B2209396 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
 			buildPhases = (
-				1B95B197730F5B3B2BE6C23B81E4529F /* Sources */,
-				ED38D7ECCFDF1ED18E54C979EC596BFF /* Frameworks */,
-				553274DDEC0CF445787D2398D20E1405 /* Headers */,
+				18C36F8D0AE5B2ABB7183896FC6ABC14 /* Sources */,
+				1390681C497EE1C51F1D40AF46C64CAA /* Frameworks */,
+				52FE72EE47A964D31B5E4226B38BD778 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -209,7 +293,7 @@
 			);
 			name = SocketRocket;
 			productName = SocketRocket;
-			productReference = 6681F1CD0F6C1890B081DC3645C735FD /* libSocketRocket.a */;
+			productReference = 6755C0C047FFEABAB79BBCC430233DFA /* libSocketRocket.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -229,93 +313,63 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CACFB5AFD8C9B5D1A38C97523AC5C7D6 /* Products */;
+			productRefGroup = 7C1ED0AFADC92F1FAF49390158B7F439 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D3E784C647D7C0219451D10D20F21B8 /* Pods-CC-app */,
-				A3AB91F166596C4826BC93F34C06FFD8 /* SocketRocket */,
+				61E8289C9A70CEAE4ED58593CFC2495D /* Pods-CC-app */,
+				9A81810D26B2BEDCE3B357D367EF74A9 /* SocketRocket */,
+				49C13E481280C486483A7CEE85240A25 /* youtube-ios-player-helper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B95B197730F5B3B2BE6C23B81E4529F /* Sources */ = {
+		18C36F8D0AE5B2ABB7183896FC6ABC14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D125C1CFB4B7BD2D2703FBAB2EE862E4 /* SocketRocket-dummy.m in Sources */,
-				7590447FFF52B007B8E0574F8741A1B1 /* SRWebSocket.m in Sources */,
+				C3B5D10500DB1571876CD57B83E6E30B /* SocketRocket-dummy.m in Sources */,
+				322AB3514C05FF80C84AC0F12B6ECA3C /* SRWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75DF821FC4FBCA9ED006281E47A6C878 /* Sources */ = {
+		3594E9C1E4AFF87957A6D57AC9470887 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71CDB0019FC39F9B06A74EBD3D571F93 /* Pods-CC-app-dummy.m in Sources */,
+				8D5FF8F5B4934576C3275A366E496244 /* youtube-ios-player-helper-dummy.m in Sources */,
+				FAC5EDCF8DF228758880ED2693843C7D /* YTPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3906809622BF496FCCDE0EA5D20DDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159C276FACE8FF701496C0C5933583D /* Pods-CC-app-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9D8D164EDEDC9FC5DCF67C40E7F909BF /* PBXTargetDependency */ = {
+		72C1FC4A1FC7EB5D442CAB574B19D692 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SocketRocket;
-			target = A3AB91F166596C4826BC93F34C06FFD8 /* SocketRocket */;
-			targetProxy = A422BE102A6AB45493842C253C04E860 /* PBXContainerItemProxy */;
+			target = 9A81810D26B2BEDCE3B357D367EF74A9 /* SocketRocket */;
+			targetProxy = 5F1928C60234A0A975C8D9DAB62848E8 /* PBXContainerItemProxy */;
+		};
+		8BE6990FF53F39DE7BAB7ADC79FEA53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "youtube-ios-player-helper";
+			target = 49C13E481280C486483A7CEE85240A25 /* youtube-ios-player-helper */;
+			targetProxy = F8BC1C0D0F8CE9FC1B601458E0F44D2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2E415D34A04D9231EBD2BD33741A7903 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DB11FD5C67738282DD881F21CE54B98 /* Pods-CC-app.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		3E12F029FED324A1658DC8F4A8D0BFE7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		51D0D2FB249B74DF510CAFA4DA1FEF06 /* Release */ = {
+		1D13ABA24A193DCC59345E320A35BAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF4255812025055F5AB517FFF80480F7 /* Pods-CC-app.release.xcconfig */;
 			buildSettings = {
@@ -337,6 +391,98 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		569D43B7E680FED46E554AB4BB4E77A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A07F00BC9C3F78B42E327EBBE4ECC5B /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8ACB6D970F1E1F93345063AE82BD8B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EBC817D2780B565041E1D6A0001BE7 /* youtube-ios-player-helper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8AD7903A59243862233CBE9F334C6998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A07F00BC9C3F78B42E327EBBE4ECC5B /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8C5CAC2004B1AA8DD8831C08C7140DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EBC817D2780B565041E1D6A0001BE7 /* youtube-ios-player-helper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		AADB9822762AD81BBAE83335B2AB1EB0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -422,32 +568,41 @@
 			};
 			name = Debug;
 		};
-		F01FDD6B487E9FBB2BEFCE44D11C7F9A /* Release */ = {
+		F0B7F839477A557F2D33656927D5587B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */;
+			baseConfigurationReference = 2DB11FD5C67738282DD881F21CE54B98 /* Pods-CC-app.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2547906E0A8266BD4F01C96A751C3F2A /* Build configuration list for PBXNativeTarget "Pods-CC-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B7F839477A557F2D33656927D5587B /* Debug */,
+				1D13ABA24A193DCC59345E320A35BAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -457,20 +612,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F340F8500141AE361791F56E2E36C5E /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+		4226BA231CBC9A851AE32528258948C8 /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E12F029FED324A1658DC8F4A8D0BFE7 /* Debug */,
-				F01FDD6B487E9FBB2BEFCE44D11C7F9A /* Release */,
+				8C5CAC2004B1AA8DD8831C08C7140DCA /* Debug */,
+				8ACB6D970F1E1F93345063AE82BD8B5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9B56CB8158E6D865F7D0EBF32658F42 /* Build configuration list for PBXNativeTarget "Pods-CC-app" */ = {
+		EC2AB3779193F4148F645F98B2209396 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E415D34A04D9231EBD2BD33741A7903 /* Debug */,
-				51D0D2FB249B74DF510CAFA4DA1FEF06 /* Release */,
+				569D43B7E680FED46E554AB4BB4E77A8 /* Debug */,
+				8AD7903A59243862233CBE9F334C6998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

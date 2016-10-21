@@ -1,3 +1,4 @@
-target 'CC-app’ do
+target 'CC-app' do
   pod 'SocketRocket'
+  pod 'youtube-ios-player-helper', '~> 0.1'
 end

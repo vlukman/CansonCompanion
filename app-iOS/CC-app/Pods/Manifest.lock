@@ -1,12 +1,15 @@
 PODS:
   - SocketRocket (0.5.1)
+  - youtube-ios-player-helper (0.1.6)
 
 DEPENDENCIES:
   - SocketRocket
+  - youtube-ios-player-helper (~> 0.1)
 
 SPEC CHECKSUMS:
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
 
-PODFILE CHECKSUM: 32d7582a3dff8f76f40ebee5115a438715f1cbb0
+PODFILE CHECKSUM: 4ad9dc4573dbfad228264dc65a60cb8d9282ade4
 
 COCOAPODS: 1.1.1
