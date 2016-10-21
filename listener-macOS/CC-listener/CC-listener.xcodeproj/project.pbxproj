@@ -12,7 +12,7 @@
 		A23238A41DB9C6A5001F4FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23238A31DB9C6A5001F4FD9 /* Assets.xcassets */; };
 		A23238A71DB9C6A5001F4FD9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23238A51DB9C6A5001F4FD9 /* MainMenu.xib */; };
 		A23238B21DB9C6A5001F4FD9 /* CC_ListenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23238B11DB9C6A5001F4FD9 /* CC_ListenerTests.m */; };
-		A23238BE1DB9C834001F4FD9 /* CCSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A23238BD1DB9C834001F4FD9 /* CCSocketManager.m */; };
+		A23238C21DB9D31C001F4FD9 /* CCSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A23238C11DB9D31C001F4FD9 /* CCSocketManager.m */; };
 		A3A6C98DED759E2C17518E93 /* libPods-CC-Listener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D9F7CA656BB73003F2CE42 /* libPods-CC-Listener.a */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +40,8 @@
 		A23238AD1DB9C6A5001F4FD9 /* CC-ListenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CC-ListenerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23238B11DB9C6A5001F4FD9 /* CC_ListenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CC_ListenerTests.m; sourceTree = "<group>"; };
 		A23238B31DB9C6A5001F4FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A23238BC1DB9C834001F4FD9 /* CCSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocketManager.h; sourceTree = "<group>"; };
-		A23238BD1DB9C834001F4FD9 /* CCSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSocketManager.m; sourceTree = "<group>"; };
+		A23238C01DB9D31C001F4FD9 /* CCSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocketManager.h; sourceTree = "<group>"; };
+		A23238C11DB9D31C001F4FD9 /* CCSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSocketManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,7 @@
 				A23238A51DB9C6A5001F4FD9 /* MainMenu.xib */,
 				A23238A81DB9C6A5001F4FD9 /* Info.plist */,
 				A23238A01DB9C6A5001F4FD9 /* Supporting Files */,
-				A23238BC1DB9C834001F4FD9 /* CCSocketManager.h */,
-				A23238BD1DB9C834001F4FD9 /* CCSocketManager.m */,
+				A23238BF1DB9D31C001F4FD9 /* shared */,
 			);
 			path = "CC-Listener";
 			sourceTree = "<group>";
@@ -122,6 +121,15 @@
 			);
 			path = "CC-ListenerTests";
 			sourceTree = "<group>";
+		};
+		A23238BF1DB9D31C001F4FD9 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				A23238C01DB9D31C001F4FD9 /* CCSocketManager.h */,
+				A23238C11DB9D31C001F4FD9 /* CCSocketManager.m */,
+			);
+			path = shared;
+			sourceTree = SOURCE_ROOT;
 		};
 		EE77FCC8E774D1DE62B85092 /* Pods */ = {
 			isa = PBXGroup;
@@ -284,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A23238A21DB9C6A5001F4FD9 /* main.m in Sources */,
-				A23238BE1DB9C834001F4FD9 /* CCSocketManager.m in Sources */,
+				A23238C21DB9D31C001F4FD9 /* CCSocketManager.m in Sources */,
 				A232389F1DB9C6A5001F4FD9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

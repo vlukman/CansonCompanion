@@ -14,6 +14,7 @@
 		A23238791DB9BB18001F4FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23238781DB9BB18001F4FD9 /* Assets.xcassets */; };
 		A232387C1DB9BB18001F4FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A232387A1DB9BB18001F4FD9 /* LaunchScreen.storyboard */; };
 		A23238871DB9BB18001F4FD9 /* CC_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23238861DB9BB18001F4FD9 /* CC_appTests.m */; };
+		A23238C61DB9D353001F4FD9 /* CCSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A23238C51DB9D353001F4FD9 /* CCSocketManager.m */; };
 		B2F849F62925CF4A56631167 /* libPods-CC-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46414015E70C55195578ECCE /* libPods-CC-app.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,8 @@
 		A23238821DB9BB18001F4FD9 /* CC-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CC-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23238861DB9BB18001F4FD9 /* CC_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CC_appTests.m; sourceTree = "<group>"; };
 		A23238881DB9BB18001F4FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23238C41DB9D353001F4FD9 /* CCSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocketManager.h; sourceTree = "<group>"; };
+		A23238C51DB9D353001F4FD9 /* CCSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSocketManager.m; sourceTree = "<group>"; };
 		E7DC41F59F23CC7E621C6ED3 /* Pods-CC-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CC-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CC-app/Pods-CC-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +99,7 @@
 				A23238781DB9BB18001F4FD9 /* Assets.xcassets */,
 				A232387A1DB9BB18001F4FD9 /* LaunchScreen.storyboard */,
 				A232387D1DB9BB18001F4FD9 /* Info.plist */,
+				A23238C31DB9D353001F4FD9 /* shared */,
 				A232386C1DB9BB18001F4FD9 /* Supporting Files */,
 			);
 			path = "CC-app";
@@ -116,6 +120,15 @@
 				A23238881DB9BB18001F4FD9 /* Info.plist */,
 			);
 			path = "CC-appTests";
+			sourceTree = "<group>";
+		};
+		A23238C31DB9D353001F4FD9 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				A23238C41DB9D353001F4FD9 /* CCSocketManager.h */,
+				A23238C51DB9D353001F4FD9 /* CCSocketManager.m */,
+			);
+			path = shared;
 			sourceTree = "<group>";
 		};
 		CE99D22C7BCE044C64C98A7E /* Pods */ = {
@@ -289,6 +302,7 @@
 			files = (
 				A23238741DB9BB18001F4FD9 /* ViewController.m in Sources */,
 				A23238711DB9BB18001F4FD9 /* AppDelegate.m in Sources */,
+				A23238C61DB9D353001F4FD9 /* CCSocketManager.m in Sources */,
 				A232386E1DB9BB18001F4FD9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
